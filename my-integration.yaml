@@ -13,7 +13,7 @@ spec:
       public void configure()
       throws Exception {
         from(\"timer:tick\")
-        .log(\"Hello Integration!\");
+        .log(\"Hello Integration testing!\");
        }
       }"
     name: Sample.java
